@@ -322,7 +322,7 @@
     </keybind>
     <keybind key="Print">
       <action name="Execute">
-        <command>gnome-screenshot -i</command>
+        <command>~/.bin/screenshot</command>
       </action>
     </keybind>
   </keyboard>
