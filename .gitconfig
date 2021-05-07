@@ -1,0 +1,8 @@
+[user]
+	email = 6006l1k@gmail.com
+	name = Alexey Ryabov
+[core]
+	editor = nano
+
+[init]
+	defaultBranch = master
