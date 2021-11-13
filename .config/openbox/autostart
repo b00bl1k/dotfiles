@@ -1,4 +1,5 @@
 sh ~/.fehbg &
+fbxkb &
 tint2 &
 volumeicon &
 telegram-desktop &
