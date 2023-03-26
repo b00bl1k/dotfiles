@@ -252,8 +252,8 @@
     </keybind>
     <!-- Keybindings for windows -->
     <keybind key="A-F2">
-      <action name="AppFinder">
-        <command>xfce4-appfinder</command>
+      <action name="Execute">
+        <command>jgmenu_run</command>
       </action>
     </keybind>
     <keybind key="A-F4">

@@ -1,5 +1,5 @@
 [Alsa]
-card=HDA ATI SB
+card=default
 channel=Master
 
 [Notification]

@@ -1,5 +1,5 @@
 export ZSH=/usr/share/oh-my-zsh
-ZSH_THEME="spaceship"
+ZSH_THEME="amuse"
 
 fpath=(/usr/share/zsh/site-functions $fpath)
 

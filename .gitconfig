@@ -1,8 +1,10 @@
 [user]
-	email = 6006l1k@gmail.com
+	email = alex@b00bl1k.ru
 	name = Alexey Ryabov
-[core]
-	editor = nano
-
 [init]
 	defaultBranch = master
+[core]
+	editor = nano
+	autocrlf = input
+[submodule]
+	recurse = true
