@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="26"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="5"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+      </property>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=4;x=1347;y=554"/>
+      <property name="size" type="uint" value="32"/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="length" type="double" value="97.592592592592595"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="24"/>
+        <value type="int" value="19"/>
+        <value type="int" value="23"/>
+        <value type="int" value="30"/>
+        <value type="int" value="22"/>
+        <value type="int" value="4"/>
+        <value type="int" value="17"/>
+      </property>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="length-adjust" type="bool" value="true"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu">
+      <property name="button-title" type="string" value=""/>
+    </property>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-font" type="string" value="Sans Bold 10"/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="show-seconds" type="bool" value="false"/>
+      <property name="flash-separators" type="bool" value="true"/>
+      <property name="digital-date-format" type="string" value="%a, %d %b"/>
+      <property name="digital-time-format" type="string" value="%T"/>
+      <property name="digital-date-font" type="string" value="Sans Bold 8"/>
+      <property name="command" type="string" value=""/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="actions"/>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="popup-at-pointer" type="bool" value="false"/>
+        <property name="never-confirm-history-clear" type="bool" value="true"/>
+        <property name="max-menu-items" type="uint" value="5"/>
+      </property>
+      <property name="settings" type="empty">
+        <property name="show-qr-code" type="bool" value="true"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="systemload">
+      <property name="uptime" type="empty">
+        <property name="enabled" type="bool" value="false"/>
+      </property>
+      <property name="network" type="empty">
+        <property name="enabled" type="bool" value="true"/>
+      </property>
+      <property name="timeout" type="uint" value="1000"/>
+      <property name="swap" type="empty">
+        <property name="label" type="string" value="swp"/>
+      </property>
+    </property>
+    <property name="plugin-19" type="string" value="notification-plugin"/>
+    <property name="plugin-22" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="менеджер буфера обмена clipman"/>
+        <value type="string" value="аплет networkmanager"/>
+      </property>
+      <property name="known-items" type="array">
+      </property>
+      <property name="hidden-items" type="array">
+      </property>
+      <property name="hidden-legacy-items" type="array">
+      </property>
+    </property>
+    <property name="plugin-23" type="string" value="xkb"/>
+    <property name="plugin-24" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="known-players" type="string" value=""/>
+      <property name="ignored-players" type="string" value=""/>
+      <property name="persistent-players" type="string" value=""/>
+      <property name="multimedia-keys-to-all" type="bool" value="true"/>
+    </property>
+    <property name="plugin-30" type="string" value="power-manager-plugin"/>
+    <property name="plugin-4" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="notes" type="empty">
+      <property name="global" type="empty">
+        <property name="version" type="string" value="1.11.0"/>
+      </property>
+    </property>
+  </property>
+</channel>

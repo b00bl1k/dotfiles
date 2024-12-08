@@ -4,7 +4,7 @@
 [init]
 	defaultBranch = master
 [core]
-	editor = nano
+	editor = nvim
 	autocrlf = input
 [submodule]
 	recurse = true
