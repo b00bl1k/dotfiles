@@ -1,10 +1,16 @@
 [user]
 	email = alex@b00bl1k.ru
-	name = Alexey Ryabov
+  name = Alexey Ryabov
+  signingkey = C447481913F2431E01B5D5F9B0DED46F6BB8B3DC
 [init]
 	defaultBranch = master
 [core]
 	editor = nvim
 	autocrlf = input
+	quotepath = off
 [submodule]
-	recurse = true
+  recurse = true
+[commit]
+  gpgsign = true
+[gpg]
+  program = /bin/gpg
