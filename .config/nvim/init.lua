@@ -47,6 +47,7 @@ vim.opt.rtp:prepend(lazypath)
 require('lazy').setup({
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
   'preservim/tagbar', -- Sidebar to browse the tags of the current file
+  'lewis6991/spaceless.nvim', -- Strip trailing whitespace as you are editing
   {
     'akinsho/bufferline.nvim', 
     version = "*", 
