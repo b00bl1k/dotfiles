@@ -2,9 +2,11 @@
 
 ![](images/screenshot.jpg)
 
-## Requirements
-
-```
-$ pacman -Sy xfce4 xfce4-clipman-plugin xfce4-datetime-plugin xfce4-pulseaudio-plugin xfce4-systemload-plugin xfce4-xkb-plugin zsh zsh-completions powerline-fonts quodlibet aerc python-html2text rofi neovim
-```
-
+- Desktop Environment: Xfce4 (with plugins: clipman datetime pulseaudio systemload xkb)
+- Shell: zsh
+- Terminal: st with tmux
+- Music player: quodlibet
+- Mail client: aerc
+- Apps menu: rofi
+- Editor: neovim
+- Browser: Firefox
