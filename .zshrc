@@ -49,10 +49,31 @@ if (( ${+terminfo[smkx]} && ${+terminfo[rmkx]} )); then
 	add-zle-hook-widget -Uz zle-line-finish zle_application_mode_stop
 fi
 
+setopt prompt_subst
+
+autoload -Uz vcs_info
+zstyle ':vcs_info:*' enable git
+zstyle ':vcs_info:*' check-for-changes true
+zstyle ':vcs_info:*' stagedstr '+'
+zstyle ':vcs_info:*' unstagedstr '*'
+zstyle ':vcs_info:git*' formats " %F{red}%b%u%c%f"
+
+precmd() {
+  vcs_info
+  PROMPT="[%F{green}%n%f:%~${vcs_info_msg_0_}]$ "
+}
+
+function git_branch_name()
+{
+    local BRANCH=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
+    if [[ -n ${BRANCH} ]] ; then
+        echo " (${BRANCH})"
+    fi
+}
+
 HISTFILE="$HOME/.zsh_history"
 HISTSIZE=10000
 SAVEHIST=10000
-PROMPT="[%F{green}%n%f:%~]$ "
 
 [[ -f ~/.profile ]] \
     && source ~/.profile
